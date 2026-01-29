@@ -10,8 +10,10 @@ namespace ConsoleApplication
             // Fizz Buzz 
             // FizzBuzzProgram.FizzBuzz();
             LogicalPrograms.GuessTheNumber();
-            
+            LogicalPrograms.ReversTheGivenNumbers();
+            LogicalPrograms.ChekPalindormNumbers();
 
+            //int sum = MathFunctions.add(10, 20);
     
 
 
@@ -22,6 +24,7 @@ namespace ConsoleApplication
         }
     }
 }
+
 
 
 
