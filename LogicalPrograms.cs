@@ -64,7 +64,75 @@ namespace ConsoleApp3
 
 
             }
+
+
+
+
+            public static void ReversTheGivenNumbers()
+  {
+    Console.WriteLine("Enter how meany nubers you want in array :");
+    int length = Convert.ToInt32(Console.ReadLine());
+
+    int[] a= new int[length]; 
+
+    for(int i = 0; i < length; i++)
+    {
+        Console.WriteLine("Enter a numbers:");
+        a[i] = Convert.ToInt32(Console.ReadLine());
+    }
+
+    int temp =0;
+    int j = a.Length - 1;
+
+    for (int i=0; i <j; i++,j--)
+    {
+        temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    }
+
+    Console.WriteLine("Reverce Of Array...is...");
+    for(int i=0; i < length;i++)
+    {
+        Console.WriteLine(a[i]);
+        //int[] b= new int[length];
+      //  b[i] = a[i];
+
+    }
+}
+
+public static void ChekPalindormNumbers()
+{
+    Console.WriteLine("Enter Numbers to revers:");
+    int number = Convert.ToInt32(Console.ReadLine());
+
+    int Reverse = 0, reminder, temp;
+
+    temp = number;
+
+    while (number > 0)
+    {
+
+        reminder = number % 10;
+        Reverse= Reverse*10 + reminder;
+        number = number / 10;   
+    }
+
+    if(temp== Reverse)
+    {
+        Console.WriteLine("this number is palindrome");
+    }
+
+    else
+    {
+        Console.WriteLine("Not Palindrome");
+
+    }
+
+}
+
         }
     }
 }
+
 
