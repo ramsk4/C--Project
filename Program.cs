@@ -9,7 +9,8 @@ namespace ConsoleApplication
         {
             // Fizz Buzz 
             // FizzBuzzProgram.FizzBuzz();
-            FizzBuzzProgram.GuessTheNumber();   
+            LogicalPrograms.GuessTheNumber();
+            
 
     
 
@@ -21,6 +22,7 @@ namespace ConsoleApplication
         }
     }
 }
+
 
 
 
