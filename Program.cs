@@ -1,4 +1,4 @@
-﻿using ConsoleApp3;
+using ConsoleApp3;
 using System;
 
 namespace ConsoleApplication
@@ -7,26 +7,25 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            // Fizz Buzz 
-            // FizzBuzzProgram.FizzBuzz();
-            LogicalPrograms.GuessTheNumber();
-            LogicalPrograms.ReversTheGivenNumbers();
-            LogicalPrograms.ChekPalindormNumbers();
-
-            //int sum = MathFunctions.add(10, 20);
-    
+             // Fizz Buzz 
+             // FizzBuzzProgram.FizzBuzz();
+             // LogicalPrograms.GuessTheNumber();
 
 
-            //int sum = MathFunctions.add(10, 20);
-            //Console.WriteLine("Sum is :" + sum);
+             //   LogicalPrograms.ReversTheGivenNumbers();
+             //   LogicalPrograms.ChekPalindormNumbers();
+             //   LogicalPrograms.CheckEvenODD();
+             //   LogicalPrograms.Print10NumbersAndSqureOfThem();
+                  LogicalPrograms.AdditionOfDigits();
+             //   LogicalPrograms.CountOfDigists();
+             //   int sum = MathFunctions.add(10, 20);
+             //   Console.WriteLine("Sum is :" + sum);
 
 
         }
     }
 }
-
-
-
+    
 
 
 
